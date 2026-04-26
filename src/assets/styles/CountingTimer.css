@@ -1,0 +1,202 @@
+.full-promo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  height: 95vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8f8;
+}
+
+.golf-promo-image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.timer-section-container {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  background: #001003ff !important;
+}
+
+.text-container {
+  margin-bottom: 40px;
+}
+
+.limited-edition-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #38c172;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.title-text {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.subtitle-text {
+  font-size: 18px;
+  color: #ccc;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.offer-expires-text {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.countdown-container {
+  display: flex;
+  gap: 25px;
+  margin: 20px 0;
+}
+
+.countdown-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  min-width: 70px;
+  backdrop-filter: blur(10px);
+  border: none;
+}
+
+.countdown-number {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Arial", sans-serif;
+}
+
+.shop-button {
+  display: inline-block;
+  padding: 16px 40px;
+  background: #38c172;
+  color: #001003;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  margin-top: 20px;
+}
+
+.shop-button:hover {
+  background: #186237;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .full-promo-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .image-section {
+    order: 1;
+    width: 100%;
+    height: 50vh;
+    min-height: 300px;
+  }
+
+  .timer-section-container {
+    order: 2;
+    width: 100%;
+    height: 50vh;
+    min-height: 400px;
+    padding: 30px 20px;
+  }
+
+  .title-text {
+    font-size: 32px;
+  }
+
+  .countdown-container {
+    gap: 12px;
+  }
+
+  .countdown-box {
+    min-width: 60px;
+    padding: 15px;
+  }
+
+  .countdown-number {
+    font-size: 24px;
+  }
+
+  .limited-edition-text {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .full-promo-container {
+    min-height: 100vh;
+  }
+
+  .image-section {
+    height: 40vh;
+    min-height: 250px;
+  }
+
+  .timer-section-container {
+    height: 60vh;
+    min-height: 450px;
+    padding: 25px 15px;
+  }
+
+  .countdown-container {
+    gap: 8px;
+  }
+
+  .countdown-box {
+    min-width: 55px;
+    padding: 12px;
+  }
+
+  .countdown-number {
+    font-size: 20px;
+  }
+
+  .title-text {
+    font-size: 28px;
+  }
+
+  .shop-button {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

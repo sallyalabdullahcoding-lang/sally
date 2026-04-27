@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../assets/styles/ShopCollection.css';
+// import sh1 from "../../../assets/images/1s-removebg-preview.png";
 import { Link } from 'react-router-dom';
 
 const ShopCollection = () => {
@@ -11,7 +12,7 @@ const ShopCollection = () => {
         <div className="collection-item large-item">
           <div className="collection-item-box">
             <img
-              src="../../../assets/images/1s-removebg-preview.png"
+              src="/public/img/1sh.png"
               alt="Juniors Set"
               className="collection-image"
             />
@@ -25,7 +26,7 @@ const ShopCollection = () => {
         <div className="collection-item small-item">
           <div className="collection-item-box">
             <img
-              src="../../../assets/images/2s-removebg-preview.png"
+              src="/public/img/1sh.png"
               alt="Men's Set"
               className="collection-image"
             />
@@ -39,7 +40,7 @@ const ShopCollection = () => {
         <div className="collection-item small-item">
           <div className="collection-item-box">
             <img
-              src="../../../assets/images/3s-removebg-preview.png"
+              src="/public/img/1sh.png"
               alt="Women's Set"
               className="collection-image"
             />

@@ -62,12 +62,12 @@ const Footer = () => {
 
                 
                 <div className="payment-icons">
-                    <img src="../../../public/photo_5_2025-09-24_16-58-40.jpg" alt="Visa" />
-                    <img src="../../../public/photo_4_2025-09-24_16-58-40.jpg" alt="American Express" />
-                    <img src="../../../public/photo_1_2025-09-24_16-58-40.jpg" alt="Stripe" />
-                    <img src="../../../public/photo_3_2025-09-24_16-58-40.jpg" alt="PayPal" />
-                    <img src="../../../public/photo_6_2025-09-24_16-58-40.jpg" alt="Apple Pay" />
-                    <img src="../../../public/photo_2_2025-09-24_16-58-40.jpg" alt="American Express" />
+                    <img src="../../assets/images/photo_1_2025-09-24_16-58-40.jpg" alt="Visa" />
+                    <img src="../../assets/images/photo_4_2025-09-24_16-58-40.jpg" alt="American Express" />
+                    <img src="../../assets/images/photo_1_2025-09-24_16-58-40.jpg" alt="Stripe" />
+                    <img src="../../assets/images/photo_3_2025-09-24_16-58-40.jpg" alt="PayPal" />
+                    <img src="../../assets/images/photo_6_2025-09-24_16-58-40.jpg" alt="Apple Pay" />
+                    <img src="../../assets/images/photo_2_2025-09-24_16-58-40.jpg" alt="American Express" />
                 </div>
             </div>
         </footer>

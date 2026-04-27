@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../../assets/styles/Categories.css';
-import shop1 from "../../../../public/1c.png";
-import shop2 from "../../../../public/2c.png";
-import shop3 from "../../../../public/3c.png";
-import shop4 from "../../../../public/4c.png";
-import shop5 from "../../../../public/5c.png";
-import shop6 from "../../../../public/6c.png";
+import shop1 from "../../../assets/images/1c.png";
+import shop2 from "../../../assets/images/2c.png";
+import shop3 from "../../../assets/images/3c.png";
+import shop4 from "../../../assets/images/4c.png";
+import shop5 from "../../../assets/images/5c.png";
+import shop6 from "../../../assets/images/6c.png";
 
 const Categories = () => {
   return (

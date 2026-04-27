@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import '../../../assets/styles/CountingTimer.css';
 import { Link } from 'react-router-dom';
-import timer from "../../../../public/image.png";
+import timer from "../../../assets/images/image.png";
 
 const CountingTimer = ({ duration }) => {
   const [time, setTime] = useState(duration);

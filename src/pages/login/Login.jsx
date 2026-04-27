@@ -1,6 +1,6 @@
-import LoginImg from "../../../public/2.jpg";
+import LoginImg from "..//../assets/images/2.jpg";
 import Input from '../../components/common/Input';
-import Button from "./../../components/common/Button";
+import Button from "../../components/common/Button";
 import "./../../assets/styles/login.css";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useState } from 'react';

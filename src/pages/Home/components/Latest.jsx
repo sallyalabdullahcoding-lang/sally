@@ -5,19 +5,19 @@ export default function LatestArticles() {
   const articles = [
     {
       id: 1,
-      image: 'public/1l.png',
+      image: '..//../../assets/images/1l.png',
       title: 'Air Jordan x Travis Scott Event',
       link: '/allproducts/',
     },
     {
       id: 2,
-      image: 'public/2l.png',
+      image: '..//../../assets/images/2l.png',
       title: 'The timeless classics on the green',
       link: '/allproducts/',
     },
     {
       id: 3,
-      image: 'public/3l.png',
+      image: '..//../../assets/images/3l.png',
       title: 'The 2023 Ryder Cup',
       link: '/allproducts/',
     },
